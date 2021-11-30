@@ -1,0 +1,29 @@
+{
+  "name": "insomnia-plugin-random-item",
+  "version": "1.0.0",
+  "description": "Template tag for Insomnia which selects a random item in a set",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thealternator89/insomnia-plugins.git"
+  },
+  "keywords": [
+    "Insomnia",
+    "plugin",
+    "random"
+  ],
+  "author": "Mark Benson <thealternator89@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thealternator89/insomnia-plugins/issues"
+  },
+  "homepage": "https://github.com/thealternator89/insomnia-plugins#readme",
+  "insomnia": {
+    "name": "randomItem",
+    "displayName": "Random Item",
+    "description": "Pick a random item from a set of values"
+  }
+}

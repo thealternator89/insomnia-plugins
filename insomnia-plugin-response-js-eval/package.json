@@ -1,0 +1,30 @@
+{
+  "name": "insomnia-plugin-response-js-eval",
+  "version": "1.0.0",
+  "description": "JS Eval over the response body of a request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thealternator89/insomnia-plugins.git"
+  },
+  "keywords": [
+    "Insomnia",
+    "plugin",
+    "response",
+    "js"
+  ],
+  "author": "Mark Benson <thealternator89@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thealternator89/insomnia-plugins/issues"
+  },
+  "homepage": "https://github.com/thealternator89/insomnia-plugins#readme",
+  "insomnia": {
+    "name": "responseJsEval",
+    "displayName": "JS Eval Response Body",
+    "description": "Process a response body with Javascript"
+  }
+}

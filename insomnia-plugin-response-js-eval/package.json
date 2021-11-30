@@ -25,6 +25,6 @@
   "insomnia": {
     "name": "responseJsEval",
     "displayName": "JS Eval Response Body",
-    "description": "Process a response body with Javascript"
+    "description": "Process a response body with JavaScript"
   }
 }

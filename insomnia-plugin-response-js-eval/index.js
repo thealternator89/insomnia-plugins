@@ -49,6 +49,9 @@ module.exports.templateTags = [{
 
         const $ = body;
 
+        const random = (property) => eval(`${property}[Math.trunc(Math.random() * ${property}.length)]`);
+        const last = (property) => eval(`${property}[${property}.length - 1]`);
+
         const evalResult = eval(evalStatement);
 
         return (typeof evalResult === 'string' ? evalResult : JSON.stringify(evalResult)) ?? '';

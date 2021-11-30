@@ -1,0 +1,26 @@
+{
+  "name": "insomnia-plugin-substring",
+  "version": "1.0.0",
+  "description": "Substring Template tag for Insomnia",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thealternator89/insomnia-plugins.git"
+  },
+  "keywords": [
+    "Insomnia",
+    "plugin",
+    "substring"
+  ],
+  "author": "Mark Benson <thealternator89@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thealternator89/insomnia-plugins/issues"
+  },
+  "homepage": "https://github.com/thealternator89/insomnia-plugins#readme",
+  "insomnia": {
+    "name": "substring",
+    "displayName": "Substring",
+    "description": "Take a substring of a value"
+  }
+}
